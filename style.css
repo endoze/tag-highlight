@@ -1,0 +1,27 @@
+<style>
+  #extension {
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 9001;
+  }
+  .h1-outline { border: 2px solid red; }
+  .h2-outline { border: 2px solid orange; }
+  .h3-outline { border: 2px solid yellow; }
+  .h4-outline { border: 2px solid green; }
+  .h5-outline { border: 2px solid blue; }
+  .h6-outline { border: 2px solid cyan; }
+  .h7-outline { border: 2px solid plum; }
+  .h8-outline { border: 2px solid maroon; }
+  .h1-background { background-color: red; }
+  .h2-background { background-color: orange; }
+  .h3-background { background-color: yellow; }
+  .h4-background { background-color: green; }
+  .h5-background { background-color: blue; }
+  .h6-background { background-color: cyan; }
+  .h7-background { background-color: plum; }
+  .h8-background { background-color: maroon; }
+</style>

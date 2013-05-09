@@ -1,0 +1,26 @@
+{
+  "background": {
+    "scripts": [ "background.js" ]
+  },
+  "content_scripts": [ 
+    {
+      "all_frames": true,
+      "js": ["jquery-2.0.0.min.js"],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_idle"
+    } 
+  ],
+  "web_accessible_resources": [
+    "toolbar.html",
+    "style.css"
+  ],
+  "name": "Tag Highlight",
+  "description": "Highlights different h tags on the page to show you visually where they are.",
+  "version": "0.0.1",
+  "permissions": [ "tabs", "http://*/*", "https://*/*" ],
+  "browser_action": { 
+    "default_title": "Highlight all the h tags",
+    "name": "test"
+  },
+  "manifest_version": 2
+}
