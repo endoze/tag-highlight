@@ -11,17 +11,13 @@
   .h1-outline    { outline: 1px solid red !important; }
   .h2-outline    { outline: 1px solid orange !important; }
   .h3-outline    { outline: 1px solid yellow !important; }
-  .h4-outline    { outline: 1px solid green !important; }
+  .h4-outline    { outline: 1px solid lime !important; }
   .h5-outline    { outline: 1px solid blue !important; }
   .h6-outline    { outline: 1px solid cyan !important; }
-  .h7-outline    { outline: 1px solid plum !important; }
-  .h8-outline    { outline: 1px solid maroon !important; }
   .h1-background { background-color: red !important; }
   .h2-background { background-color: orange !important; }
   .h3-background { background-color: yellow !important; }
-  .h4-background { background-color: green !important; }
+  .h4-background { background-color: lime !important; }
   .h5-background { background-color: blue !important; }
   .h6-background { background-color: cyan !important; }
-  .h7-background { background-color: plum !important; }
-  .h8-background { background-color: maroon !important; }
 </style>

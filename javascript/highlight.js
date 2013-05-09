@@ -41,14 +41,13 @@ if ($element.length == 0) {
      $('#h6-button').toggleClass('h6-background');
     });
 
-    $('#h7-button').click(function() {
-     $('h7').toggleClass('h7-outline');
-     $('#h7-button').toggleClass('h7-background');
-    });
-
-    $('#h8-button').click(function() {
-     $('h8').toggleClass('h8-outline');
-     $('#h8-button').toggleClass('h8-background');
+    $('#all-button').click(function() {
+      var h_tags = ['h1','h2','h3','h4','h5', 'h6'];
+      for(var i in h_tags) {
+        h_tag = h_tags[i];
+        $(h_tag).toggleClass(h_tag + '-outline');
+        $('#' + h_tag + '-button').toggleClass(h_tag + '-background');
+      }
     });
   }, 'html');
 } else {
@@ -66,4 +65,9 @@ var loadCss = (function (file, next) {
 
 var setClickListeners = (function () {
   console.log('loadHtml called');
+});
+
+var outlineHTag =  (function (tag_name) {
+  $(tag_name).toggleClass(tag_name + '-outline');
+  $('#' + tag_name + '-button').toggleClass(tag_name + '-background');
 });
