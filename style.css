@@ -8,14 +8,14 @@
     top: 0;
     z-index: 9001;
   }
-  .h1-outline { border: 2px solid red; }
-  .h2-outline { border: 2px solid orange; }
-  .h3-outline { border: 2px solid yellow; }
-  .h4-outline { border: 2px solid green; }
-  .h5-outline { border: 2px solid blue; }
-  .h6-outline { border: 2px solid cyan; }
-  .h7-outline { border: 2px solid plum; }
-  .h8-outline { border: 2px solid maroon; }
+  .h1-outline    { outline: 1px solid red; }
+  .h2-outline    { outline: 1px solid orange; }
+  .h3-outline    { outline: 1px solid yellow; }
+  .h4-outline    { outline: 1px solid green; }
+  .h5-outline    { outline: 1px solid blue; }
+  .h6-outline    { outline: 1px solid cyan; }
+  .h7-outline    { outline: 1px solid plum; }
+  .h8-outline    { outline: 1px solid maroon; }
   .h1-background { background-color: red; }
   .h2-background { background-color: orange; }
   .h3-background { background-color: yellow; }
