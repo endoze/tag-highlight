@@ -5,14 +5,14 @@
   "content_scripts": [ 
     {
       "all_frames": true,
-      "js": ["jquery-2.0.0.min.js"],
+      "js": ["javascript/jquery-2.0.0.min.js"],
       "matches": [ "http://*/*", "https://*/*" ],
       "run_at": "document_idle"
     } 
   ],
   "web_accessible_resources": [
-    "toolbar.html",
-    "style.css"
+    "html/toolbar.html",
+    "styles/style.css"
   ],
   "name": "Tag Highlight",
   "description": "Highlights different h tags on the page to show you visually where they are.",
@@ -20,7 +20,16 @@
   "permissions": [ "tabs", "http://*/*", "https://*/*" ],
   "browser_action": { 
     "default_title": "Highlight all the h tags",
-    "name": "test"
+    "name": "test",
+    "default_icon": {
+      "19": "assets/tag-19.png",
+      "38": "assets/tag-38.png"
+    }
+  },
+  "icons": { 
+    "16": "assets/tag-16.png",
+    "48": "assets/tag-48.png",
+    "128": "assets/tag-128.png"
   },
   "manifest_version": 2
 }
