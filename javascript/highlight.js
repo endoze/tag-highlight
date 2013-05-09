@@ -4,13 +4,12 @@ if ($element.length == 0) {
   $('body').prepend('<div id="extension"></div>');
 
   // Load our html for the toolbar
-  $.get(chrome.extension.getURL("toolbar.html"), function(toolbarContent){
+  $.get(chrome.extension.getURL("html/toolbar.html"), function(toolbarContent){
     $('#extension').html(toolbarContent);
   }, 'html');
 
   // Load our css for the toolbar then set click handlers
-  $.get(chrome.extension.getURL("style.css"), function(cssContent){
-    console.log('content: '+ cssContent);
+  $.get(chrome.extension.getURL("styles/style.css"), function(cssContent){
     $('head').append(cssContent);
     $('#h1-button').click(function() {
      $('h1').toggleClass('h1-outline');

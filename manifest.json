@@ -12,7 +12,9 @@
   ],
   "web_accessible_resources": [
     "html/toolbar.html",
-    "styles/style.css"
+    "styles/style.css",
+    "javascript/jquery-2.0.0.min.js",
+    "javascript/highlight.js"
   ],
   "name": "Tag Highlight",
   "description": "Highlights different h tags on the page to show you visually where they are.",
