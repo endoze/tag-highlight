@@ -20,4 +20,83 @@
   .h4-background { background-color: lime !important; }
   .h5-background { background-color: blue !important; }
   .h6-background { background-color: cyan !important; }
+
+
+.tag-extension-btn {
+  border: none;
+  background: #34495e;
+  color: white;
+  font-size: 16.5px;
+  text-decoration: none;
+  text-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: 0.25s;
+  -moz-transition: 0.25s;
+  -o-transition: 0.25s;
+  transition: 0.25s;
+  -webkit-backface-visibility: hidden; }
+  .tag-extension-btn:hover, .tag-extension-btn:focus {
+    background-color: #4e6d8d;
+    color: white;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -o-transition: 0.25s;
+    transition: 0.25s;
+    -webkit-backface-visibility: hidden; }
+  .tag-extension-btn:active, .tag-extension-btn.active {
+    background-color: #2c3e50;
+    color: rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none; }
+  .tag-extension-btn.disabled, .tag-extension-btn[disabled] {
+    background-color: #95a5a6;
+    color: white; }
+  .tag-extension-btn.tag-extension-btn-large {
+    padding-bottom: 12px;
+    padding-top: 13px; }
+  .tag-extension-btn.tag-extension-btn-primary {
+    background-color: #1abc9c; }
+    .tag-extension-btn.tag-extension-btn-primary:hover, .tag-extension-btn.tag-extension-btn-primary:focus {
+      background-color: #2fe2bf; }
+    .tag-extension-btn.tag-extension-btn-primary:active, .tag-extension-btn.tag-extension-btn-primary.active {
+      background-color: #16a085; }
+  .tag-extension-btn.tag-extension-btn-info {
+    background-color: #3498db; }
+    .tag-extension-btn.tag-extension-btn-info:hover, .tag-extension-btn.tag-extension-btn-info:focus {
+      background-color: #5dade2; }
+    .tag-extension-btn.tag-extension-btn-info:active, .tag-extension-btn.tag-extension-btn-info.active {
+      background-color: #2383c4; }
+  .tag-extension-btn.tag-extension-btn-danger {
+    background-color: #e74c3c; }
+    .tag-extension-btn.tag-extension-btn-danger:hover, .tag-extension-btn.tag-extension-btn-danger:focus {
+      background-color: #ec7063; }
+    .tag-extension-btn.tag-extension-btn-danger:active, .tag-extension-btn.tag-extension-btn-danger.active {
+      background-color: #dc2d1b; }
+  .tag-extension-btn.tag-extension-btn-success {
+    background-color: #2ecc71; }
+    .tag-extension-btn.tag-extension-btn-success:hover, .tag-extension-btn.tag-extension-btn-success:focus {
+      background-color: #55d98d; }
+    .tag-extension-btn.tag-extension-btn-success:active, .tag-extension-btn.tag-extension-btn-success.active {
+      background-color: #27ad60; }
+  .tag-extension-btn.tag-extension-btn-warning {
+    background-color: #f1c40f; }
+    .tag-extension-btn.tag-extension-btn-warning:hover, .tag-extension-btn.tag-extension-btn-warning:focus {
+      background-color: #f4d03f; }
+    .tag-extension-btn.tag-extension-btn-warning:active, .tag-extension-btn.tag-extension-btn-warning.active {
+      background-color: #cea70c; }
+  .tag-extension-btn-toolbar .tag-extension-btn {
+    font-size: 18px;
+    padding: 10px 14px 9px; }
+    .tag-extension-btn-toolbar .tag-extension-btn:first-child {
+      -webkit-border-radius: 6px 0 0 6px;
+      -moz-border-radius: 6px 0 0 6px;
+      border-radius: 6px 0 0 6px; }
+    .tag-extension-btn-toolbar .tag-extension-btn:last-child {
+      -webkit-border-radius: 0 6px 6px 0;
+      -moz-border-radius: 0 6px 6px 0;
+      border-radius: 0 6px 6px 0; }
+
 </style>
